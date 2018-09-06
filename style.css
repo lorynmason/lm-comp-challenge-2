@@ -1,0 +1,26 @@
+header {
+  background-color: #56BBF6;
+  height: 100px;
+  margin: 0 auto;
+}
+
+section {
+  border: solid 1px #000000;
+  width: 300px;
+}
+
+.card-picture {
+  background-image: url('https://s18711.pcdn.co/wp-content/uploads/2017/12/screen-shot-2017-12-27-at-5-30-49-pm.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.icon {
+  width: 50px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+}
