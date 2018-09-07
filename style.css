@@ -79,7 +79,6 @@ h2 {
   font-size: 1.5em;
 }
 
-
 /*card info*/
 
 h3 {
@@ -140,25 +139,82 @@ h4 {
   margin: 15px 15px 20px 0px;
 }
 
-.card-picture {
-  background: 
-  linear-gradient(rgba(77,77,77,0.5), rgba(77,77,77,0.5)), 
-  url(https://s18711.pcdn.co/wp-content/uploads/2017/12/screen-shot-2017-12-27-at-5-30-49-pm.png);
-  background-size: cover;
-  background-repeat: no-repeat;
+.hv-card {
   color: #ffffff;
   display: flex;
   justify-content: space-between;
 }
 
-.card-picture h5 {
+.hv-card:hover {
+  background: 
+  linear-gradient(rgba(77,77,77,0.5), rgba(77,77,77,0.5)), 
+  url(https://wildaid.org/wp-content/uploads/2017/09/program-header_sharks-1024x413.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hv-card h5 {
   font-size: 2.1em;
   height: 100px;
   text-align: center;
   font-weight: 400;
 }
 
-.card-picture h6 {
+.hv-card h6 {
   font-size: .8em;
   font-weight: 300;
 } 
+
+/*individual card*/
+
+.card-picture1 {
+  background: url(https://s18711.pcdn.co/wp-content/uploads/2017/12/screen-shot-2017-12-27-at-5-30-49-pm.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.card-picture2 {
+  background: url(https://images.theconversation.com/files/207813/original/file-20180226-140181-un3yf6.jpg?ixlib=rb-1.1.0&rect=0%2C763%2C6290%2C3140&q=45&auto=format&w=1356&h=668&fit=crop);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.card-picture3 {
+  background: url(https://i2-prod.cornwalllive.com/incoming/article1791196.ece/ALTERNATES/s1200/1599765.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.card-picture4 {
+  background: url(https://chooseyourcurrent.org/wp-content/uploads/2017/08/tigershark_header-1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.card-picture5 {
+  background: url(https://www.montereybayaquarium.org/-/m/images/animal-guide/fishes/blacktip-reef-shark.jpg?bc=white&h=676&mh=738&mw=1312&w=1196&usecustomfunctions=1&cropx=3&cropy=86);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.card-picture6 {
+  background: url(https://media.apnarm.net.au/media/images/2018/03/15/b881276991z1_20180315162129_000guj112oqs2-0-j7nmiqvyqhcijzgmxp2_fct951x713_ct300x225.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.card-picture7 {
+  background: url(https://www.brianskerry.com/wp-content/uploads/2011/12/MM8289_150225_03183comp.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.card-picture8 {
+  background: url(https://magazine.diviac.com/content/images/2018/01/thresher-shark.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+
+
