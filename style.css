@@ -11,12 +11,12 @@ body {
 }
 
 header {
-  background-color: #56BBF6;
+  background-color: #003d66;
   height: 145px;
+  color: #ffffff;
 }
 
 section {
-  /*border: solid 1px;*/
   box-shadow: 3px 0 3px #bababa, -0.2em 0 0.2em #bababa;
 }
 
@@ -28,8 +28,8 @@ section {
 }
 
 h1 {
-  font-size: 3em;
-  font-weight: 400;
+  font-size: 2.8em;
+  font-weight: 500;
 }
 
 h2 {
@@ -50,6 +50,36 @@ h2 {
   margin: 15px 10px 0px 0px;
 }
 
+.fas {
+  font-size: 1em;
+  margin: 0px 5px;
+}
+
+ h3 .fa-first-order {
+  margin: 0px 5px;
+  color: #ffffff;
+}
+
+.header-nav p {
+  font-size: 1.3em;
+  font-weight: 300;
+  padding: 80px 0px 5px 10px;
+  position: absolute;
+}
+
+.hv {
+  font-size: 1em;
+  padding: 0px 5px 0px 25px;
+  color: #00cccc;
+}
+
+.ui {
+  padding: 0px 5px;
+  color: #00cccc;
+  font-size: 1.5em;
+}
+
+
 /*card info*/
 
 h3 {
@@ -57,6 +87,7 @@ h3 {
   margin: 0px 5px 3px 5px;
   padding-left: 10px;
   font-weight: 500;
+  color: #00cccc;
 }
 
 h4 {
@@ -100,7 +131,7 @@ h4 {
 
 /*card picture*/
 
-.fas {
+.fa-telegram {
   font-size: 4em;
   margin: 10px 0px 20px 10px;
 }
