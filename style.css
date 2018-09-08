@@ -17,12 +17,12 @@ header {
 }
 
 section {
-  box-shadow: 3px 0 3px #bababa, -0.2em 0 0.2em #bababa;
+  box-shadow: 4px 0 4px #bababa, -0.2em 0 0.2em #bababa;
 }
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   grid-gap: 20px;
   margin: 25px;
 }
@@ -53,7 +53,7 @@ h2 {
 .fas {
   font-size: 1em;
   margin: 0px 5px;
-}
+  }
 
  h3 .fa-first-order {
   margin: 0px 5px;
@@ -63,20 +63,32 @@ h2 {
 .header-nav p {
   font-size: 1.3em;
   font-weight: 300;
-  padding: 80px 0px 5px 10px;
+  padding: 93px 0px 0px 10px;
   position: absolute;
 }
 
 .hv {
   font-size: 1em;
   padding: 0px 5px 0px 25px;
-  color: #00cccc;
+  color: #24b4e0;
 }
 
 .ui {
   padding: 0px 5px;
-  color: #00cccc;
+  color: #24b4e0;
   font-size: 1.5em;
+}
+
+.active {
+  font-size: 1em;
+  font-weight: 300;
+  color: #ffffff;
+}
+
+.notActive {
+  font-size: 1em;
+  font-weight: 300;
+  color: #bfbfbf;
 }
 
 /*card info*/
@@ -86,7 +98,7 @@ h3 {
   margin: 0px 5px 3px 5px;
   padding-left: 10px;
   font-weight: 500;
-  color: #00cccc;
+  color: #24b4e0;
 }
 
 h4 {
@@ -215,6 +227,79 @@ h4 {
   background-repeat: no-repeat;
 }
 
+#hambars {
+  display: none;
+}
+
+@media (min-width: 1500px) {
+  .grid {
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-gap: 50px;
+    margin: 60px;
+  }
+}
+
+@media (max-width: 860px) {
+  .hidden, #hidden {
+    display: none;
+  }
+
+  .login-title {
+    display: flex;
+    justify-content: center;
+    float: none;
+    margin: 0px;
+    padding: 60px; 
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  .grid {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 15px;
+    margin: 20px;
+  }
+
+  #hambars {
+    display: inline-block;
+    font-size: 1.9em;
+    color: #FFFFFF;
+    padding: 15px 0px 0px 10px;
+  }
+}
+
+@media (max-width: 675px) {
+  .grid {
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    grid-gap: 10px;
+    margin: 10px;
+  }
+}
+
+@media (max-width: 650px) {
+  .grid {
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+    margin: 40px;
+  }
+}
+
+@media (max-width: 380px) {
+  .grid {
+    margin: 10px;
+  }
+}
+
+@media (max-width: 330px) {
+  .grid {
+    margin: 5px;
+  }
+  h1 {
+      font-size: 1.6em;
+    }
+}
 
 
 
