@@ -37,3 +37,5 @@ You may NOT take liberties with the layout, but your creative license includes:
 
 <h2>My verison</h2>
 <img width="1439" alt="screen shot 2018-09-11 at 7 51 17 am" src="https://user-images.githubusercontent.com/40005248/45364494-83c1b780-b597-11e8-8a71-ffbf6b0cde49.png">
+<h2>Live Website:</h2>
+https://lorynmason.github.io/lm-comp-challenge-2/
