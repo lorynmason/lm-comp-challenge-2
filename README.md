@@ -32,4 +32,8 @@ You may NOT take liberties with the layout, but your creative license includes:
 <li>Site must work across Firefox, Safari, Chrome</li>
 <li>Developer must use normalize instead of reset file in CSS</li>
 </ul>
+<h2>COMP:</h2>
 <img width="727" alt="screen shot 2018-09-11 at 12 18 57 am" src="https://user-images.githubusercontent.com/40005248/45341587-6faa9580-b558-11e8-9b32-6b79b783325e.png">
+
+<h2>My verison</h2>
+<img width="1439" alt="screen shot 2018-09-11 at 7 51 17 am" src="https://user-images.githubusercontent.com/40005248/45364494-83c1b780-b597-11e8-8a71-ffbf6b0cde49.png">
